@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Mohammad Alipanah</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{% static 'css/vendor.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'ma.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'ma.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'ma.png' %}">
+    <link rel="manifest" href="{% static 'site.webmanifest' %}">
+
+    {% block header %}
+
+    {% endblock header %}
+
+</head>
+
+<body id="top">
+
+
+  
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        {% include 'main/navbar.html' %}
+
+
+
+        
+
+
+        {% block content %}
+
+        {% endblock content %}
+
+        
+
+        {% include 'main/footer.html' %}
+
+    </div> 
+
+    {% block script %}
+    {% endblock script %}
+
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>

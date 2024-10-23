@@ -1,0 +1,571 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block content %}
+<main class="s-content">
+
+
+    <section id="intro" class="s-intro target-section">
+
+        <div class="row intro-content wide">
+
+            <div class="column">
+                <div class="text-pretitle with-line">
+                    Hello 
+                </div>
+
+                <p class="text-huge-title">
+                    I am a skilled Django web developer with a strong proficiency in creating dynamic and efficient web applications.<br>
+
+                </p>
+            </div>
+
+            <!-- <ul class="intro-social">
+                <li><a href="#0">Instagram</a></li>
+                <li><a href="#0">Twitter</a></li>
+                <li><a href="#0">Dribbble</a></li>
+                <li><a href="#0">Instagram</a></li>
+            </ul> -->
+
+        </div> <!-- end intro content -->
+
+        <a href="#about" class="intro-scrolldown smoothscroll">
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
+        </a>
+
+    </section> <!-- end s-intro -->
+
+
+    <!-- ### about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+
+        <div class="row about-info wide" data-animate-block>
+
+            <div class="column lg-6 md-12 about-info__pic-block">
+                <img src="{% static 'images/about-photo.jpg' %}" 
+                     srcset="{% static 'images/about-photo.jpg' %} 1x, {% static 'images/about-photo@2x.jpg' %} 2x" 
+                     alt="" class="about-info__pic" data-animate-el>
+            </div>
+
+            <div class="column lg-6 md-12">
+                <div class="about-info__text" >
+
+                    <h2 class="text-pretitle with-line" data-animate-el>
+                        About
+                    </h2>
+                    <p class="attention-getter" data-animate-el>
+                        I am adept at implementing asynchronous task processing with Celery, ensuring optimal application performance and responsiveness. Additionally, I have a solid understanding of FastAPI for high-performance API development and possess a background in DevOps practices, which enables me to streamline deployment processes and enhance collaboration between development and operations teams.
+                        <br>
+                        <br>
+                        My passion for continuous learning and problem-solving drives me to stay updated with the latest industry trends and technologies, empowering me to contribute effectively to any project.
+                    </p>
+                    <a href="#0" class="btn btn--medium u-fullwidth" data-animate-el>Download CV</a>
+
+                </div>
+            </div>
+        </div> <!-- about-info -->
+
+
+        <div class="row about-expertise" data-animate-block>
+            <div class="column lg-12">
+
+                <h2 class="text-pretitle" data-animate-el>Expertise</h2>
+
+                <ul class="skills-list h1" data-animate-el>
+                    <li>ِPython</li>
+                    <li>ِJavaScript</li>
+                    <li>ِHTML/CSS</li>
+                    <li>git/github/gitlab</li>
+                    <li>ِDjango</li>
+                    <li>DjangoRestFrameWork</li>
+                    <li>React</li>
+                    <li>Jquery</li>
+                    <li>FastApi</li>
+                    <li>Celery</li>
+                    <li>Linux Essential</li>
+                </ul>
+
+            </div>
+        </div> <!-- end about-expertise -->
+
+
+        <div class="row about-timelines" data-animate-block>
+
+            <div class="column lg-6 tab-12">
+
+                <h2 class="text-pretitle" data-animate-el>
+                    Experience
+                </h2>
+
+                <div class="timeline" data-animate-el>
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <h4 class="timeline__title">Kherad Institution</h3>
+                            <h5 class="timeline__meta">Educator</h5>
+                            <p class="timeline__timeframe">2021 - 2022</p>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+                                I worked at the Kherad Institute for 1 year as an instructor, teaching various programming languages such as Python, PHP, C++, and JavaScript. It was a great experience.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <h4 class="timeline__title">Pharma118</h4>
+                            <h5 class="timeline__meta">FullStatck Developer</h5>
+                            <p class="timeline__timeframe">2020 - 2021</p>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+                                I worked at Pharma118 for about 9 months as a full stack developer, where I designed and deployed the company’s website....
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <h4 class="timeline__title">FreeLancer</h4>
+                            <h5 class="timeline__meta">BackEnd Developer</h5>
+                            <p class="timeline__timeframe">2022 - present</p>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+                                I have been freelancing for 2 years now, working on an amazing and new startup project where I handle the backend.                            </p>
+                        </div>
+                    </div>
+
+                </div> <!-- end timeline -->
+
+            </div> <!-- end column -->
+
+            <div class="column lg-6 tab-12">
+
+                <h2 class="text-pretitle" data-animate-el>
+                    Education
+                </h2>
+
+                <div class="timeline" data-animate-el>
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <h4 class="timeline__title">University of Salman Farsi</h3>
+                            <h5 class="timeline__meta">Computer Science</h5>
+                            <p class="timeline__timeframe">2018</p>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+                                I entered Salman Farsi University in the city of Kazeroon in 2018.
+                                After a year, I decided to drop out of university and chose to self-study programming.
+                            </p>
+
+                        </div>
+                    </div>
+
+               
+
+                </div> <!-- end timeline -->
+                
+            </div> <!-- end column -->
+
+
+        </div> <!-- end about-timelines -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- ### works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+
+        <div class="row works-portfolio">
+
+            <div class="column lg-12" data-animate-block>
+
+                <h2 class="text-pretitle" data-animate-el>
+                    Recent Works
+                </h2>
+                <p class="h1" data-animate-el>
+                    Here are some of my favorite projects I have done lately. Feel free to check them out.
+                </p>
+
+                <ul class="folio-list row block-lg-one-half block-stack-on-1000">
+
+                    <li class="folio-list__item column" data-animate-el>
+                        <a class="folio-list__item-link" href="#modal-01">
+                            <div class="folio-list__item-pic">
+                                <img src="{% static 'log.png' %}"
+                                     srcset="{% static 'log.png' %} 1x, {% static 'log.png@2x.jpg' %} 2x"  alt="">
+                            </div>
+                            
+                            <div class="folio-list__item-text">
+                                <div class="folio-list__item-cat">
+                                    Website
+                                </div>
+                                <div class="folio-list__item-title">
+                                    pharma118
+                                </div>
+                            </div>
+                        </a>
+                        <a class="folio-list__proj-link" href="#" title="project link">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </li> <!--end folio-list__item -->
+
+                    <li class="folio-list__item column" data-animate-el>
+                        <a class="folio-list__item-link" href="#modal-02">
+                            <div class="folio-list__item-pic">
+                                <img src="{% static 'dr.png' %}" 
+                                     srcset="{% static 'dr.png' %} 1x, {% static 'dr.png' %}@2x.jpg 2x" alt="">
+                            </div>
+                            
+                            <div class="folio-list__item-text">
+                                <div class="folio-list__item-cat">
+                                    Website
+                                </div>
+                                <div class="folio-list__item-title">
+                                    drhooraad
+                                </div>
+                            </div>
+                        </a>
+                        <a class="folio-list__proj-link" href="#" title="project link">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </li> <!--end folio-list__item -->
+
+                    <!-- <li class="folio-list__item column" data-animate-el>
+                        <a class="folio-list__item-link" href="#modal-03">
+                            <div class="folio-list__item-pic">
+                                <img src="images/portfolio/rucksack.jpg" 
+                                     srcset="images/portfolio/rucksack.jpg 1x, images/portfolio/rucksack@2x.jpg 2x" alt="">
+                            </div>
+                            
+                            <div class="folio-list__item-text">
+                                <div class="folio-list__item-cat">
+                                    Branding
+                                </div>
+                                <div class="folio-list__item-title">
+                                    Rucksuck.
+                                </div>
+                            </div>
+                        </a>
+                        <a class="folio-list__proj-link" href="#" title="project link">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </li> 
+
+                    <li class="folio-list__item column" data-animate-el>
+                        <a class="folio-list__item-link" href="#modal-04">
+                            <div class="folio-list__item-pic">
+                                <img src="images/portfolio/skaterboy.jpg"
+                                     srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="">
+                            </div>
+                            
+                            <div class="folio-list__item-text">
+                                <div class="folio-list__item-cat">
+                                    Website
+                                </div>
+                                <div class="folio-list__item-title">
+                                    Since Day One.
+                                </div>
+                            </div>
+                        </a>
+                        <a class="folio-list__proj-link" href="#" title="project link">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </li> 
+
+                    <li class="folio-list__item column" data-animate-el>
+                        <a class="folio-list__item-link" href="#modal-05">
+                            <div class="folio-list__item-pic">
+                                <img src="images/portfolio/sanddunes.jpg" 
+                                     srcset="images/portfolio/sanddunes.jpg 1x, images/portfolio/sanddunes@2x.jpg 2x" alt="">
+                            </div>
+                            
+                            <div class="folio-list__item-text">
+                                <div class="folio-list__item-cat">
+                                    Illustration
+                                </div>
+                                <div class="folio-list__item-title">
+                                    Sand Dunes.
+                                </div>
+                            </div>
+                        </a>
+                        <a class="folio-list__proj-link" href="#" title="project link">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </li> 
+
+                    <li class="folio-list__item column" data-animate-el>
+                        <a class="folio-list__item-link" href="#modal-06">
+                            <div class="folio-list__item-pic">
+                                <img src="images/portfolio/minimalismo.jpg" 
+                                     srcset="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt="">
+                            </div>
+                            
+                            <div class="folio-list__item-text">
+                                <div class="folio-list__item-cat">
+                                    Branding
+                                </div>
+                                <div class="folio-list__item-title">
+                                    Minimalismo.
+                                </div>
+                            </div>
+                        </a>
+                        <a class="folio-list__proj-link" href="#" title="project link">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </li>  -->
+
+                </ul> <!-- end folio-list -->
+
+            </div> <!-- end column -->
+
+
+            <!-- Modal Templates Popup
+            -------------------------------------------- -->
+            <div id="modal-01" hidden>
+                <div class="modal-popup">
+                    <img src="{% static 'log.png' %}" alt="">
+        
+                    <div class="modal-popup__desc">
+                        <h5>pharma 118</h5>
+                        <!-- <p>Odio soluta enim quos sit asperiores rerum rerum repudiandae cum. Vel voluptatem alias qui assumenda iure et expedita voluptatem. Ratione officiis quae.</p> -->
+                        <ul class="modal-popup__cat">
+                            <li>FrontEnd (BootStrap,Vanilla js,Jquery) </li>
+                            <li>BackEnd(Django)</li>
+                        </ul>
+                    </div>
+        
+                    <a href="https://www.pharma118.com/" class="modal-popup__details">Project link</a>
+                </div>
+            </div> 
+            
+
+            <div id="modal-02" hidden>
+                <div class="modal-popup">
+                    <img src="{% static 'dr.png' %}" alt="">
+        
+                    <div class="modal-popup__desc">
+                        <h5>Dr Hoorad</h5>
+                        <!-- <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p> -->
+                        <ul class="modal-popup__cat">
+                            <li>Website</li>
+                        </ul>
+                    </div>
+        
+                    <a href="https://drhooraad.ir/" class="modal-popup__details">Project link</a>
+                </div>
+            </div> 
+            
+
+
+            <!-- <div id="modal-03" hidden>
+                <div class="modal-popup">
+                    <img src="images/portfolio/gallery/g-rucksack.jpg" alt="">
+        
+                    <div class="modal-popup__desc">
+                        <h5>Rucksuck</h5>
+                        <p>Exercitationem reprehenderit quod explicabo consequatur aliquid ut magni ut. Deleniti quo corrupti illum velit eveniet ratione necessitatibus ipsam mollitia.</p>
+                        <ul class="modal-popup__cat">
+                            <li>Product Design</li>
+                        </ul>
+                    </div>
+        
+                    <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                </div>
+            </div>
+
+            <div id="modal-04" hidden>
+                <div class="modal-popup">
+                    <img src="images/portfolio/gallery/g-skaterboy.jpg" alt="">
+        
+                    <div class="modal-popup__desc">
+                        <h5>Since Day One</h5>
+                        <p>Dolores velit qui quos nobis. Aliquam delectus voluptas quos possimus non voluptatem voluptas voluptas. Est doloribus eligendi porro doloribus voluptatum.</p>
+                        <ul class="modal-popup__cat">
+                            <li>Website</li>
+                        </ul>
+                    </div>
+        
+                    <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                </div>
+            </div>
+
+            <div id="modal-05" hidden>
+                <div class="modal-popup">
+
+                    <img src="images/portfolio/gallery/g-sanddunes.jpg" alt="">
+        
+                    <div class="modal-popup__desc">
+                        <h5>Sand Dunes</h5>
+                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        <ul class="modal-popup__cat">
+                            <li>Illustration</li>
+                        </ul>
+                    </div>
+        
+                    <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                </div>
+            </div>
+
+            <div id="modal-06" hidden>
+                <div class="modal-popup">
+                    <img src="images/portfolio/gallery/g-minimalismo.jpg" alt="">
+        
+                    <div class="modal-popup__desc">
+                        <h5>Minimalismo</h5>
+                        <p>Quisquam vel libero consequuntur autem voluptas. Qui aut vero. Omnis fugit mollitia cupiditate voluptas. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+                        <ul class="modal-popup__cat">
+                            <li>Branding</li>
+                            <li>Product Design</li>
+                        </ul>
+                    </div>
+        
+                    <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                </div>
+            </div> -->
+
+        </div> <!-- end works-portfolio -->
+
+
+        <!-- <div class="row testimonials">
+            <div class="column lg-12" data-animate-block>
+
+                <div class="swiper-container testimonial-slider" data-animate-el>
+
+                    <div class="swiper-wrapper">
+
+                        <div class="testimonial-slider__slide swiper-slide">
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Tim Cook</strong>
+                                    <span>CEO, Apple</span>
+                                </cite>
+                            </div>
+                            <p>
+                            Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
+                            Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
+                            Laudantium quia consequatur molestias delectus culpa.
+                            </p>
+                        </div>
+        
+                        <div class="testimonial-slider__slide swiper-slide">
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Sundar Pichai</strong>
+                                    <span>CEO, Google</span>
+                                </cite>
+                            </div>
+                            <p>
+                            Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                            Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
+                            Quasi voluptas eius distinctio. Atque eos maxime.
+                            </p>
+                        </div>
+        
+                        <div class="testimonial-slider__slide swiper-slide">
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Satya Nadella</strong>
+                                    <span>CEO, Microsoft</span>
+                                </cite>
+                            </div>
+                            <p>
+                            Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                            Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
+                            Voluptatem dignissimos ut.
+                            </p>
+                        </div>
+
+                        <div class="testimonial-slider__slide swiper-slide">
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/user-06.jpg" alt="Author image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Jeff Bezos</strong>
+                                    <span>CEO, Amazon</span>
+                                </cite>
+                            </div>
+                            <p>
+                            Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis 
+                            quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. 
+                            Nihil ea quia nesciunt. Ducimus aut sed ipsam.
+                            </p>
+                        </div>
+    
+                    </div> 
+
+                    <div class="swiper-pagination"></div>
+
+                </div>
+
+            </div> 
+        </div>  -->
+
+    </section> 
+
+
+    <!-- ### contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="row contact-top">
+            <div class="column lg-12">
+                <h2 class="text-pretitle">
+                    Get In Touch
+                </h2>
+
+                <p class="h1">
+                    I love to hear from you.
+                    Whether you have a question or just 
+                    want to chat about design, tech & web — shoot me a message.
+                </p>
+            </div>
+        </div> <!-- end contact-top -->
+
+        <div class="row contact-bottom">
+            <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+                <h3 class="text-pretitle">Reach me at</h3>
+                <p class="contact-links">
+                    <a href="mailto:mohammadalipanah80@gmail.com" class="mailtoui">mohammadalipanah80@gmail.com</a> <br>
+                    <a href="tel:+989308880854">+989308880854</a>
+                </p>
+            </div>
+            <!-- <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+                <h3 class="text-pretitle">Social</h3>
+                <ul class="contact-social">
+                    <li><a href="#0">Behance</a></li>
+                    <li><a href="#0">Dribble</a></li>
+                    <li><a href="#0">Twitter</a></li>
+                    <li><a href="#0">Instagram</a></li>
+                    <li><a href="#0">Github</a></li>
+                </ul>
+            </div> -->
+            <br>
+            <br>
+            <br>
+            <!-- <div class="column lg-4 md-12 contact-block">
+                <a href="mailto:mohammadalipanah80@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+            </div> -->
+        </div> <!-- end contact-bottom -->
+
+    </section> <!-- end contact -->
+
+</main> 
+
+{% endblock content %}
